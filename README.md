@@ -3,7 +3,7 @@ This package contains the code I wrote in order to learn the RUST programming la
 
 The subdirectory `src/bin` contains the actual programming problems from different sources:
 
-| `adriann_*` | (Adrian Neumann's programming Problems)[https://adriann.github.io/programming_problems.html] |
+| `adriann_*` | [Adrian Neumann's programming Problems](https://adriann.github.io/programming_problems.html) |
 
 ## Further sites
 
