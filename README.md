@@ -1,9 +1,10 @@
 # Learning RUST
-This package contains the code I wrote in order to learn the RUST programming language.
+This package contains the code I wrote in order to teach myself the
+RUST programming language.
 
 The subdirectory `src/bin` contains the actual programming problems from different sources:
 
-| `adriann_*` | [Adrian Neumann's programming Problems](https://adriann.github.io/programming_problems.html) |
+* `adriann_*`: [Adrian Neumann's programming Problems](https://adriann.github.io/programming_problems.html) |
 
 ## Further sites
 
