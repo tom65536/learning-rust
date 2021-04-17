@@ -1,7 +1,7 @@
 # Learning RUST
 
-![GitHub](https://img.shields.io/github/license/tom65536/learning-rust)
-[![build status](https://github.com/tom65536/learning-rust/workflows/master/badge.svg)](https://github.com/tom65536/learning-rust/actions)
+![license](https://img.shields.io/github/license/tom65536/learning-rust)
+![build status](https://img.shields.io/github/workflow/status/tom65536/learning-rust/build)
 
 This package contains the code I wrote in order to teach myself the
 RUST programming language.
