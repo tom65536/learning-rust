@@ -6,6 +6,8 @@
 //!
 //! ## Lessons Learned
 //! * This time I added a separate module for the function summing the numbers.
+//! * Getting the path to the module right.
+//! * It would be nice to have `fn sum35<T>(n:T)` instead of `fn sum35(n:u32)`.
 
 use std::io;
 use learning_rust::adriann::{sum35};
