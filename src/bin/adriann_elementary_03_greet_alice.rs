@@ -14,14 +14,13 @@ fn main() {
     io::stdin()
         .read_line(&mut input)
         .expect("Could not read your name.");
-    
-    let name = input.lines().next()
-        .expect("Could not read your name.");
+
+    let name = input.lines().next().expect("Could not read your name.");
 
     match &name as &str {
-        ""     => println!("Poor thing! Don't even have a name!"),
+        "" => println!("Poor thing! Don't even have a name!"),
         "name" => println!("Funny, your name is name!"),
-        "Alice" | "Bob" =>  println!("Hello, {}!", name),
-        _      => println!("\u{1F636}")
+        "Alice" | "Bob" => println!("Hello, {}!", name),
+        _ => println!("\u{1F636}"),
     }
 }

@@ -9,8 +9,8 @@
 //! * Getting the path to the module right.
 //! * It would be nice to have `fn sum35<T>(n:T)` instead of `fn sum35(n:u32)`.
 
+use learning_rust::adriann::sum35;
 use std::io;
-use learning_rust::adriann::{sum35};
 
 fn main() {
     println!("Please, enter a positive number: ");
@@ -18,12 +18,11 @@ fn main() {
     io::stdin()
         .read_line(&mut input)
         .expect("Could not read your input.");
-    
+
     let maybe_n = input.lines().next().unwrap().parse::<u32>();
-    
 
     match maybe_n {
         Ok(n) => println!("Result: {}", sum35(n)),
-        Err(err) => println!("No result: {}", err)
+        Err(err) => println!("No result: {}", err),
     }
 }
