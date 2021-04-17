@@ -79,3 +79,27 @@ pub fn sum35_generic<T: Sized + Rem<T, Output = T> + Add<T, Output = T> + Partia
 
     result
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_sum35() {
+        let s6 = sum35(6);
+        assert_eq!(3 + 5 + 6, s6);
+
+        let s19 = sum35(19);
+        assert_eq!(3 + 5 + 6 + 9 + 10 + 12 + 15 + 18, s19);   
+    }
+
+    #[test]
+    fn test_sum35_generic() {
+        let s6 = sum35_generic(6u128);
+        assert_eq!(3 + 5 + 6, s6);
+
+        let s19 = sum35_generic(19u16);
+        assert_eq!(3 + 5 + 6 + 9 + 10 + 12 + 15 + 18, s19);   
+    }
+
+}
