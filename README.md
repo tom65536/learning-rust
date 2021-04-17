@@ -1,12 +1,17 @@
 # Learning RUST
+
+[![build status](https://github.com/tom65536/learning-rust/workflows/master/badge.svg)](https://github.com/tom65536/learning-rust/actions)
+
 This package contains the code I wrote in order to teach myself the
 RUST programming language.
 
-The subdirectory `src/bin` contains the actual programming problems from different sources:
+The subdirectory `src/bin` contains the actual programming problems from the following sources:
 
 * `adriann_*`: [Adrian Neumann's programming Problems](https://adriann.github.io/programming_problems.html) |
 
 ## Further sites
+
+Maybe I will add more examples later. Here are some ideas:
 
 1. http://projecteuler.net/
 2. http://rosettacode.org/wiki/Category:Programming_Tasks
